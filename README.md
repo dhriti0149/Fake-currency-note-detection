@@ -1,4 +1,4 @@
-In this project,I have built a deep learning model to check if a given currency note is counterfeit or not by ResNet50 model and later integrated Grad-CAM visualize discriminative regions influencing classification decisions.
+In this project,I have built a deep learning model to check if a given currency note is counterfeit or not by Residual Network architecture variants and later integrated Grad-CAM visualize discriminative regions influencing classification decisions on the best Resnet variant.
 Counterfeit money is illegally produced currency designed to imitate real money and deceive people. Counterfeit currency significantly destabilises a nation's economy & erodes public trust in its financial systems. When fake money enters circulation, it shifts the financial burden to ordinary citizens, small businesses & national security infrastructure. Counterfeit networks are masterminded by a spectrum of criminals, ranging from state-sponsored crime syndicates executing economic warfare to tech-savvy local gangs exploiting modern consumer technology. 
 Hence, deep-learning can be used for automated image classification and check for fake currency notes.
 The dataset used for this model is 'Indian Currency Real vs Fake Notes Dataset' on Kaggle.This dataset contains high-quality images of Indian currency notes, categorized as real or fake across six denominations — ₹10, ₹20, ₹50, ₹100, ₹500, and ₹2000.
@@ -21,6 +21,7 @@ Indian Currency Real vs Fake Notes Dataset/
     ├── 500/
     └── 2000/
 Each folder contains real and fake currency note images for that denomination.
+
 
 Here, I have used Resnet50 to perform a binary classification on this dataset. ResNet-50 is a 50-layer deep Convolutional Neural Network (CNN) used mainly for computer vision & image recognitions.
 Resnet50 serves as a baseline feature extractor for further features like object detection & image segmentation.
